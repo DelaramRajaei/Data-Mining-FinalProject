@@ -46,6 +46,6 @@ The model's accuracy, recall, and precision are evaluated on both the training a
 The notebook explores hyperparameter tuning using a grid search approach to optimize the XGBoost model's performance. The best parameters are identified, and the model is retrained with these parameters.
 
 ## Conclusion <a name="conclusion"></a>
-The project concludes by summarizing the results and providing insights into the impact of hyperparameter changes. Visualization of the hyperparameter effects is presented to aid in understanding the model's behavior under different configurations. The final model showcases improved performance after hyperparameter tuning.
+According to the drawn charts, the only parameter that has a more significant impact is the learning rate; the other parameters, as observed, have horizontal plots, indicating that they do not have much influence on the model's performance.
 
 Feel free to explore the notebook for a detailed walkthrough of each step and the corresponding code.
